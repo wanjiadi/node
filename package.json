@@ -1,0 +1,18 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "study node",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "wanjiadi",
+  "license": "ISC",
+  "devDependencies": {
+    "koa": "^1.2.5"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "koa": "^1.2.5"
+  }
+}
