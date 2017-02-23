@@ -4,6 +4,7 @@
 		"browser":true,
 		"node":true
 	},
+	"extends":"airbnb",
 	"globals":{
 		"myname":true
 	},
@@ -16,10 +17,16 @@
 
 		}
 	},
-	"plugins":{
+	"plugins":[
 
-	},
+	],
 	"rules":{
-	
+		"strict": 0,
+		"spaced-comment": 0, // 不对注释前的空格做强制要求
+		"comma-dangle": 0, // 不对数组或对象末尾逗号做强制要求
+		"prefer-rest-params": 0, // 现阶段rest-params还不能用
+		"no-console": 0, // 允许使用console
+		"func-names": 0, // 允许使用匿名函数
+		"new-cap": 0, //取消大写字母开头的只能用作构造函数检查, sequelize 的类型都是大写字母开头的
 	}
 }

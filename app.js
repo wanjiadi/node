@@ -1,4 +1,6 @@
-function ss(s){
-var s;
-if(s =='3'){console.log(111)}
+'user strict';
+
+function aa() {
+  return { wanjiadi: { ss: 'nihao' }, www: 12 };
 }
+aa();
